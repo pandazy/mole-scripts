@@ -1,6 +1,6 @@
 {
 	"name": "@pandazy/mole-scripts",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "common yarn commands",
 	"main": "index.js",
 	"bin": {
@@ -10,7 +10,7 @@
 		"mole-release": "./bin/mole-release.js"
 	},
 	"scripts": {
-    "lint": "prettier --write **/*.js **/*.json",
+		"lint": "prettier --write **/*.js **/*.json",
 		"release": "yarn lint && yarn publish && git clean -fd"
 	},
 	"repository": {
@@ -19,7 +19,7 @@
 	},
 	"files": [
 		"bin",
-    "lib"
+		"lib"
 	],
 	"keywords": [
 		"yarn",
