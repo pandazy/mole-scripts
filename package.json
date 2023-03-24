@@ -1,0 +1,32 @@
+{
+  "name": "@pandazy/mole-scripts",
+  "version": "0.1.0",
+  "description": "common yarn commands",
+  "main": "index.js",
+  "bin": {
+    "mole-build": "./bin/mole-build.js",
+    "mole-husky": "./bin/mole-husky.js",
+    "mole-lint": "./bin/mole-lint.js",
+    "mole-release": "./bin/mole-release.js"
+  },
+  "scripts": {
+    "release": "yarn publish && git clean -fd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandazy/mole-scripts.git"
+  },
+  "keywords": [
+    "yarn",
+    "nodejs"
+  ],
+  "author": "Martin Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandazy/mole-scripts/issues"
+  },
+  "homepage": "https://github.com/pandazy/mole-scripts#readme",
+  "dependencies": {
+    "yargs": "^17.7.1"
+  }
+}
