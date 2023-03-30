@@ -1,6 +1,6 @@
 {
 	"name": "@pandazy/mole-scripts",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "common yarn commands",
 	"main": "index.js",
 	"bin": {
